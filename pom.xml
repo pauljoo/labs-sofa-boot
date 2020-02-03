@@ -16,6 +16,7 @@
         <module>labs-sofa-boot-biz-provider</module>
         <module>labs-sofa-boot-cat-facade</module>
         <module>labs-sofa-boot-cat-provider</module>
+        <module>labs-sofa-boot-plugin-biz</module>
     </modules>
 
 
