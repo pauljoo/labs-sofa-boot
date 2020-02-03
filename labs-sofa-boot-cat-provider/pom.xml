@@ -22,12 +22,7 @@
 
         <dependency>
             <groupId>info.xpanda.labs.sofa-boot</groupId>
-            <artifactId>labs-sofa-bootcat-facade</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>info.xpanda.labs.sofa-boot</groupId>
-            <artifactId>labs-sofa-bootbiz-facade</artifactId>
+            <artifactId>labs-sofa-boot-cat-facade</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -1,6 +1,7 @@
-package info.xpanda.labs.framework.cat.provider;
+package info.xpanda.labs.sofa.boot.cat.provider;
 
-import info.xpanda.labs.framework.cat.facade.CatFacade;
+
+import info.xpanda.labs.sofa.boot.cat.facade.CatFacade;
 
 public class CatFacadeImpl implements CatFacade {
 

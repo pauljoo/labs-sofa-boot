@@ -1,8 +1,8 @@
-package info.xpanda.labs.framework.api.controller;
+package info.xpanda.labs.sofa.boot.api.controller;
 
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
-import info.xpanda.labs.framework.biz.facade.BizFacade;
-import info.xpanda.labs.framework.cat.facade.CatFacade;
+import info.xpanda.labs.sofa.boot.biz.facade.BizFacade;
+import info.xpanda.labs.sofa.boot.cat.facade.CatFacade;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

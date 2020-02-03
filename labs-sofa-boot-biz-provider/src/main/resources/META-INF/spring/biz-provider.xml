@@ -5,10 +5,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
             http://sofastack.io/schema/sofaboot http://sofastack.io/schema/sofaboot.xsd"
        default-autowire="byName">
-    <bean id="bizFacadeImpl" class="info.xpanda.labs.framework.biz.provider.BizFacadeImpl">
+    <bean id="bizFacadeImpl" class="info.xpanda.labs.sofa.boot.biz.provider.BizFacadeImpl">
     </bean>
 
-    <sofa:service ref="bizFacadeImpl" interface="info.xpanda.labs.framework.biz.facade.BizFacade">
+    <sofa:service ref="bizFacadeImpl" interface="info.xpanda.labs.sofa.boot.biz.facade.BizFacade">
         <sofa:binding.jvm/>
     </sofa:service>
 </beans>

@@ -1,4 +1,4 @@
-package info.xpanda.labs.framework.cat.facade;
+package info.xpanda.labs.sofa.boot.cat.facade;
 
 public interface CatFacade {
     String message();

@@ -1,13 +1,9 @@
-package info.xpanda.labs.framework.api;
+package info.xpanda.labs.sofa.boot.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {
-        "info.xpanda.labs.framework.api",
-        "info.xpanda.labs.framework.conflict.provider",
-        "info.xpanda.labs.framework.cat.provider"
-})
+@SpringBootApplication
 public class ApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(ApiApplication.class, args);
