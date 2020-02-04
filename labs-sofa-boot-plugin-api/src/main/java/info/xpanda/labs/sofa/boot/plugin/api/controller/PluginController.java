@@ -1,7 +1,8 @@
-package info.xpanda.labs.sofa.boot.plugin.biz.controller;
+package info.xpanda.labs.sofa.boot.plugin.api.controller;
 
 import com.alipay.sofa.ark.spi.service.ArkInject;
 import info.xpanda.labs.sofa.ark.plugin.apple.facade.AppleService;
+import info.xpanda.labs.sofa.boot.plugin.biz.facade.PluginBizFacade;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PluginController {
     @ArkInject
-    private AppleService appleService;
+    private PluginBizFacade pluginBizFacade;
 
     @RequestMapping("/plugin")
     public String plugin(){
-        System.out.println(appleService.message());
+        System.out.println(pluginBizFacade.message());
         return "plugin";
     }
 }

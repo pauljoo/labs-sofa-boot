@@ -1,4 +1,4 @@
-package info.xpanda.labs.sofa.boot.plugin.biz;
+package info.xpanda.labs.sofa.boot.plugin.api;
 
 import com.alipay.sofa.ark.support.startup.SofaArkBootstrap;
 import org.springframework.boot.SpringApplication;
@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Paul Jiang
- * @since 20200203
+ * @since 20200204
  */
 @SpringBootApplication
-public class PluginBizApplication {
+public class PluginApiApplication {
     public static void main(String[] args) {
         SofaArkBootstrap.launch(args);
-        SpringApplication.run(PluginBizApplication.class, args);
+        SpringApplication.run(PluginApiApplication.class, args);
     }
 }

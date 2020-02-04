@@ -40,6 +40,18 @@
                 <artifactId>labs-sofa-boot-cat-provider</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
+
+            <dependency>
+                <groupId>info.xpanda.labs.sofa-boot</groupId>
+                <artifactId>labs-sofa-boot-plugin-biz-facade</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>info.xpanda.labs.sofa-boot</groupId>
+                <artifactId>labs-sofa-boot-plugin-biz-provider</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
